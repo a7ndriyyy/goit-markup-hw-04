@@ -313,9 +313,19 @@ img{
 
 /* finish portfolio button */
 .hero{
-    background:var(--grey);
     padding: 188px 0;
     text-align: center;
+    background-color:var(--grey);
+
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7));
+    background-image:url(../images/people-office.jpg);
+    background-repeat:no repeat;
+    background-position:center;
+    background-size:cover;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1440px;
+    height: 600px;
 }
 
 
@@ -359,6 +369,7 @@ img{
     line-height: 1.11 ;
     text-align: center;
 }
+
 /* portfolio img css */
 .portfolio-ul{
     display: flex;
@@ -444,6 +455,48 @@ img{
     padding: 32px 16px;
     border-radius: 0px 0px 4px 4px; 
 }
+
+
+/* section icons */
+.icons-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.icons-list{
+  display: flex;
+  gap: 24px;
+}
+.icons{
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+.icons-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #afb1b8;
+    height:100% ;
+    border: 1px solid #8e8f99; 
+    border-radius: 4px;
+}
+.icons-links:hover,
+.icons-links:focus{
+  border-color: #404bbf;
+  color: #404bbf;
+}
+.svg{
+    fill: currentColor;
+}
+.customers-title{
+    margin-bottom: 72px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--navy-blue-modal);
+    font-size: 36px;
+    line-height: 1.11 ;
+    text-align: center;
+}
+
 /* footer */
 .footer{
     padding: 100px 0;
