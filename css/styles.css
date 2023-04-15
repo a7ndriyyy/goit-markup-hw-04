@@ -569,7 +569,8 @@ justify-content: center;
 
 }
 .social-footer{
-
+    align-items: baseline;
+    margin-right: 120px;
 }
 .text-media{
 font-weight: 500;
