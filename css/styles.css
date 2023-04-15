@@ -76,6 +76,7 @@ img{
 .top-line{
     background:var(--white);
     border-bottom: 1px solid var(--cornflower);
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     
 }
 
@@ -247,8 +248,51 @@ img{
         clip: rect(0 0 0 0);
         overflow: hidden;
       }
+/* STRATEGY-ICONS */
+.strategy-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px; 
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+/* OUR-TEAM SECTION ICON */
+.div-team{
+    /* padding: 32px 16px;
+    border-radius: 0px 0px 4px 4px;  */
+    padding-top: 32px;  
+    padding-bottom: 32px;
+}
+.list-icon{
+    display: flex; 
+    justify-content: center; 
+    gap: 24px;
 
+}
+.li-icon{
+ width: 40px;
+ height: 40px;
 
+}
+.link-icon{
+width: 100%; 
+height: 100%;
+background-color:var(--iris);
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.link-icon:hover,
+.link-icon:focus {
+    background-color:var(--ocean)
+}
+.svg-team{
+    fill: #f4f4fd ;
+}
 
 /* what we are doing */
 /* .item-doing{ */
@@ -317,11 +361,10 @@ img{
     text-align: center;
     background-color:var(--grey);
 
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7));
-    background-image:url(../images/people-office.jpg);
-    background-repeat:no repeat;
-    background-position:center;
-    background-size:cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
     margin-right: auto;
     margin-left: auto;
     max-width: 1440px;
@@ -451,10 +494,7 @@ img{
     background: var(--cloud);
 }
 
-.div-team{
-    padding: 32px 16px;
-    border-radius: 0px 0px 4px 4px; 
-}
+
 
 
 /* section icons */
@@ -493,8 +533,8 @@ img{
     text-transform: capitalize;
     color:var(--navy-blue-modal);
     font-size: 36px;
-    line-height: 1.11 ;
-    text-align: center;
+    line-height: 1.1 ;
+    text-align: center; 
 }
 
 /* footer */
