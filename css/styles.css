@@ -309,6 +309,12 @@ justify-content: center;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
+.buttons:hover,
+.buttons:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: #ffffff;
+  background: #404bbf;
+}
 /* portfolio btn */
 .list-buttons{
     display: flex;
@@ -438,8 +444,14 @@ justify-content: center;
     color: var(--grey);
     width: calc((100% - 2 * 24px) / 3);
 }
-
-
+/* portfolio link */
+.lien-portfolio{
+    display: block;
+}
+.lien-portfolio:hover,
+.lien-portfolio:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
 /* portfolio text img */
 
 .caption{
@@ -564,14 +576,10 @@ justify-content: center;
 /* footer social */
 .flex{
     display: flex;
-}
-.div-footer{
-
-}
-.social-footer{
     align-items: baseline;
     margin-right: 120px;
 }
+
 .text-media{
 font-weight: 500;
 font-size: 16px;
@@ -606,5 +614,5 @@ height: 40px;
     background-color: #31d0aa; 
 }
 .footer-icon{
-
+    fill: #f4f4fd;
 }
