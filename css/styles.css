@@ -1,17 +1,17 @@
 :root{
   
-        --iris: #4d5ae5;
-        --ocean: #404bbf;
-        --navy-blue: #2e2f42;
-        --green: #31d0aa;
-        --slate: #434455;
-        --light-slate: #8e8f99;
-        --cornflower: #e7e9fc;
-        --cloud: #f4f4fd;
-        --navy-blue-modal: #2e2f42;
-        --grey: #2e2f42;
-        --white: #ffffff;
-        --dairy: #fcfcfc;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navy-blue: #2e2f42;
+    --green: #31d0aa;
+    --slate: #434455;
+    --light-slate: #8e8f99;
+    --cornflower: #e7e9fc;
+    --cloud: #f4f4fd;
+    --navy-blue-modal: #2e2f42;
+    --grey: #2e2f42;
+    --white: #ffffff;
+    --dairy: #fcfcfc;
       
        
 }
@@ -254,7 +254,7 @@ img{
     align-items: center;
     justify-content: center;
     height: 112px; 
-    background-color: #f4f4fd;
+    background-color:var(--cloud);
     border-radius: 4px;
     margin-bottom: 8px;
 }
@@ -291,7 +291,7 @@ justify-content: center;
     background-color:var(--ocean)
 }
 .svg-team{
-    fill: #f4f4fd ;
+    fill:var(--cloud) ;
 }
 
 /* what we are doing */
@@ -312,8 +312,8 @@ justify-content: center;
 .buttons:hover,
 .buttons:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  color: #ffffff;
-  background: #404bbf;
+  color:var(--white);
+  background: var(--ocean);
 }
 /* portfolio btn */
 .list-buttons{
@@ -526,16 +526,16 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#8e8f99;
+    color:var(--light-slate);
     height:100% ;
-    border: 1px solid #8e8f99; 
+    border: 1px solid var(--light-slate); 
     border-radius: 4px;
 
 }
 .icons-links:hover,
 .icons-links:focus{
-  border-color: #404bbf;
-  color: #404bbf;
+  border-color: var(--ocean);
+  color: var(--ocean);
 }
 .svg{
     fill: currentColor;
@@ -611,8 +611,8 @@ height: 40px;
 }
 .link-footer:hover,
 .link-footer:focus{
-    background-color: #31d0aa; 
+    background-color: var(--green); 
 }
 .footer-icon{
-    fill: #f4f4fd;
+    fill: var(--cloud);
 }
